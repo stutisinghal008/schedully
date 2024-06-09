@@ -1,0 +1,2 @@
+# schedully
+College Scheduller App
