@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialogHeader"
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="Create New Exam"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editExamDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Exam Date"
+        android:inputType="none"
+        android:focusable="false"
+        android:textColor="@color/blue"
+        android:padding="8dp"/>
+    <EditText
+        android:id="@+id/editExamLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pick_location"
+        android:inputType="textPostalAddress"
+        android:padding="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerCourseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textColor="@color/blue"/>
+
+</LinearLayout>

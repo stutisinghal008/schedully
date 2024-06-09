@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_no_filter"
+        android:title="" />
+    <item
+        android:id="@+id/action_sort_by_date"
+        android:title="Sort by Due Date"/>
+    <item
+        android:id="@+id/action_sort_by_course"
+        android:title="Sort by Course Name"/>
+</menu>

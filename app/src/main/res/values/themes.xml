@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Schedully" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryVariant">@color/yellow</item>
+        <item name="colorAccent">@color/yellow</item>
+        <item name="colorControlActivated">@color/yellow</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlActivated">@color/yellow</item>
+        <item name="colorAccent">@color/yellow</item>
+        <item name="colorSecondary">@color/yellow</item>
+    </style>
+    <style name="Widget.App.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/yellow</item>
+    </style>
+    <style name="TimePickerTheme" parent="Theme.MaterialComponents.Light.Dialog">>
+        <item name="colorAccent">@color/yellow</item>
+        <item name="android:buttonBarButtonStyle">@style/DialogButtonStyle</item>
+    </style>
+    <style name="DialogButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/yellow</item>
+    </style>
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="actionMenuTextColor">@color/blue</item>
+    </style>
+    <style name="PopupTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">@color/yellow</item>
+    </style>
+    <style name="Theme.Schedully" parent="Base.Theme.Schedully" />
+</resources>

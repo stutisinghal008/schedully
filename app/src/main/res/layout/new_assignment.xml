@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialogHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create New Assignment"
+        android:textSize="24sp"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"/>
+    <EditText
+        android:id="@+id/editTextAssignmentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/assignment_name"
+        android:inputType="text"
+        android:padding="8dp"
+        android:paddingHorizontal="16dp"
+        android:textColor="@color/blue"/>
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/assignment_deadline"
+        android:inputType="none"
+        android:focusable="false"
+        android:textColor="@color/blue"/>
+
+    <Spinner
+        android:hint="@string/assignment_course"
+        android:text="@string/select_item"
+        android:id="@+id/spinnerCourseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textColor="@color/blue"/>
+
+</LinearLayout>

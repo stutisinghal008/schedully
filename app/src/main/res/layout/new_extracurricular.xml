@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialogHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create New Activity"
+        android:textSize="24sp"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"/>
+    <Spinner
+        android:text="Select Activity"
+        android:id="@+id/spinnerActivityType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textColor="@color/blue"/>
+    <EditText
+        android:id="@+id/editOrganizationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Organization/Company Name"
+        android:inputType="text"
+        android:padding="8dp"
+        android:paddingHorizontal="16dp"
+        android:textColor="@color/blue"/>
+    <EditText
+        android:id="@+id/editActivityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Activity Name"
+        android:inputType="text"
+        android:padding="8dp"
+        android:paddingHorizontal="16dp"
+        android:textColor="@color/blue"/>
+
+    <EditText
+        android:id="@+id/ECDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Due Date"
+        android:inputType="none"
+        android:focusable="false"
+        android:textColor="@color/blue"/>
+</LinearLayout>
